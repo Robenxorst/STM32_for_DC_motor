@@ -1,5 +1,8 @@
 // Программа для ознакомления с модулями RCC, GPIO, TIM, MISC
 
+// Реализуется мигание светодиода, подключенного к выводу PC15,
+// с задержкой 500 мс на таймере TIM14;
+
 #include "stm32_lib/inc/stm32f0xx_rcc.h"
 #include "stm32_lib/inc/stm32f0xx_gpio.h"
 #include "stm32_lib/inc/stm32f0xx_tim.h"
