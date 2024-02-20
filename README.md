@@ -15,11 +15,11 @@ https://www.st.com/resource/en/reference_manual/dm00091010-stm32f030x4-x6-x8-xc-
 
 В качестве среды разработки используется CoIDE.
 
-`
+```
 const func = (num) => {  
   if (num > 0) {  
     return num - 1;  
   }
   return num + 1;  
 }; 
-`
+```
