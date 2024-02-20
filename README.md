@@ -14,3 +14,18 @@ Reference Manual:
 https://www.st.com/resource/en/reference_manual/dm00091010-stm32f030x4-x6-x8-xc-and-stm32f070x6-xb-advanced-arm-based-32-bit-mcus-stmicroelectronics.pdf
 
 В качестве среды разработки используется CoIDE.
+
+'''JSON
+[
+ {
+ "title": "apples",
+ "count": [12000, 20000],
+ "description": {"text": "...", "sensitive": false}
+ },
+ {
+ "title": "oranges",
+ "count": [17500, null],
+ "description": {"text": "...", "sensitive": false}
+ }
+]
+'''
